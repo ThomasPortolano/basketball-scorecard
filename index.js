@@ -4,6 +4,13 @@ let guestScore = document.getElementById("guestScore");
 let count = 0;
 let countGuest = 0;
 
+function setInitialValue(){
+    homeScoreEl.innerHTML = count;
+    guestScore.innerHTML = countGuest;
+}
+
+setInitialValue();
+
 function addOne(){
     count += 1
     homeScoreEl.textContent = count;
