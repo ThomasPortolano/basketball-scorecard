@@ -4,4 +4,5 @@
 
 Basketball Scorecard project is a simple way to track scores between two teams (Home vs Guest).
 The referee can add +1, +2, +3 scores or reset the team score if needed.
-It uses a combination of different methods in Vanilla JS to interact with the DOM.
+
+It uses a combination of different methods in Vanilla JS to interact with the DOM: getElementById, TextContent and onClick.
